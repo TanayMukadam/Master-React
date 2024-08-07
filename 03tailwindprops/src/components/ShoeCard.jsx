@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ShoeCard({name, price}) {
+function ShoeCard({name, price, src}) {
 
   return (
     <div className="flex p-6 font-mono">
   <div className="flex-none w-48 mb-10 relative z-10 before:absolute before:top-1 before:left-1 before:w-full before:h-full before:bg-teal-400">
-    <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_3.0/h_300,c_limit/c9666161-fe24-4c81-889e-2b29d2c45aab/air-jordan-4-retro-oxidized-green-mens-shoes-PNtDJp.png" alt="" className="absolute z-10 inset-0 w-full h-full object-cover rounded-lg" loading="lazy" />
+    <img src={src} alt="" className="absolute z-10 inset-0 w-full h-full object-cover rounded-lg" loading="lazy" />
   </div>
   <form className="flex-auto pl-6">
     <div className="relative flex flex-wrap items-baseline pb-6 before:bg-black before:absolute before:-top-6 before:bottom-0 before:-left-60 before:-right-6">
