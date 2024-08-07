@@ -18,21 +18,21 @@ function MyApp() {
 //     children: 'Click me to visit google'
 // }
 
-const anotherUser = " tanay mahendra mukadam"
+// const anotherUser = " tanay mahendra mukadam"
 
 
-const AnotherElement = (
-    <a href="http://google.com" target="_blank">Click Here to Visit Google</a>
-)
+// const AnotherElement = (
+//     <a href="http://google.com" target="_blank">Click Here to Visit Google</a>
+// )
 
-const reactElement = React.createElement(
-    'a',
-    {href: "https://google.com", 
-     target: '_blank' },
-     "Click me to Google",
-     anotherUser
-)
+// const reactElement = React.createElement(
+//     'a',
+//     {href: "https://google.com", 
+//      target: '_blank' },
+//      "Click me to Google",
+//      anotherUser
+// )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    reactElement 
+    <App />
 )
